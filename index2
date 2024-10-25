@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 글로벌 IT 연구 컨퍼런스</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: url('it-conference.jpg') no-repeat center center;
+            background-size: cover;
+            height: 80vh;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .section {
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">2025 글로벌 IT 연구 컨퍼런스</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">소개</a></li>
+            <li class="nav-item"><a class="nav-link" href="#schedule">일정</a></li>
+            <li class="nav-item"><a class="nav-link" href="#registration">등록</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">문의</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero">
+    <div>
+        <h1>2025 글로벌 IT 연구 컨퍼런스</h1>
+        <p>최첨단 IT 연구와 글로벌 협력을 위한 만남의 장</p>
+        <a href="#registration" class="btn btn-primary btn-lg">지금 등록하기</a>
+    </div>
+</div>
+
+<!-- About Section -->
+<section id="about" class="section text-center">
+    <div class="container">
+        <h2 class="mb-4">컨퍼런스 소개</h2>
+        <p>2025 글로벌 IT 연구 컨퍼런스는 최신 IT 연구 성과를 공유하고 글로벌 협력을 강화하기 위한 행사입니다.</p>
+    </div>
+</section>
+
+<!-- Schedule Section -->
+<section id="schedule" class="section bg-light text-center">
+    <div class="container">
+        <h2 class="mb-4">행사 일정</h2>
+        <ul class="list-unstyled">
+            <li><strong>1일차</strong>: 개회식 및 기조연설, 인공지능 세션</li>
+            <li><strong>2일차</strong>: IoT 및 빅데이터 세션, 네트워킹 이벤트</li>
+            <li><strong>3일차</strong>: 클라우드 컴퓨팅 세션, 폐회식</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Registration Section -->
+<section id="registration" class="section text-center">
+    <div class="container">
+        <h2 class="mb-4">참가 등록</h2>
+        <p>조기 등록 시 할인 혜택이 제공됩니다. 자세한 사항은 <a href="#contact">문의</a>해 주세요.</p>
+        <a href="#" class="btn btn-success btn-lg">등록하기</a>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section bg-light text-center">
+    <div class="container">
+        <h2 class="mb-4">문의</h2>
+        <p>더 궁금한 사항이 있다면 아래 연락처로 문의해 주세요.</p>
+        <p>Email: info@itconference2025.com</p>
+        <p>Phone: +82-2-1234-5678</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4">
+    <p>© 2025 한국외국어대학교 교육혁신원. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
